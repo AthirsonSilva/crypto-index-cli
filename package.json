@@ -1,0 +1,31 @@
+{
+	"type": "commonjs",
+	"name": "crypto-index-cli",
+	"version": "1.0.0",
+	"description": "A simple Command Line Interface app that provides the current cotation of the main Cryptocurrencies nowadays, like BitCoin and Ethereum, giving their respective values on several nations currencies.",
+	"main": "index.js",
+	"bin": {
+		"crypto-index": "./bin/crypto-index.js --experimental-json-modules"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AthirsonSilva/crypto-index-cli.git"
+	},
+	"keywords": [],
+	"author": "Athirson Silva",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AthirsonSilva/crypto-index-cli/issues"
+	},
+	"homepage": "https://github.com/AthirsonSilva/crypto-index-cli#readme",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"colors": "^1.4.0",
+		"commander": "^5.0.0",
+		"configstore": "^5.0.1",
+		"inquirer": "^7.1.0"
+	}
+}
